@@ -1,0 +1,106 @@
+/* =========================
+   UNIVERSAL SELECTOR
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* =========================
+   BODY STYLING
+========================= */
+
+body {
+
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+}
+
+
+
+/* =========================
+   HEADING
+========================= */
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* =========================
+   COMMON BOX STYLING
+========================= */
+
+.box {
+
+    width: 300px;
+
+    margin: 30px auto;
+
+    padding: 20px;
+
+    border: 5px solid black;
+
+    background-color: white;
+}
+
+
+
+/* =========================
+   CONTENT BOX
+========================= */
+
+.content-box {
+
+    box-sizing: content-box;
+
+    background-color: lightblue;
+}
+
+
+
+/* =========================
+   BORDER BOX
+========================= */
+
+.border-box {
+
+    box-sizing: border-box;
+
+    background-color: lightgreen;
+}
+
+
+
+/* =========================
+   BORDER RADIUS
+========================= */
+
+.rounded-box {
+
+    border-radius: 20px;
+
+    background-color: lightpink;
+}
+
+
+
+/* =========================
+   BOX SHADOW
+========================= */
+
+.shadow-box {
+
+    box-shadow: 5px 5px 15px gray;
+
+    background-color: lightyellow;
+}

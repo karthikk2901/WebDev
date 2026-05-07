@@ -1,0 +1,122 @@
+/* =========================
+   UNIVERSAL SELECTOR
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* =========================
+   BODY STYLING
+========================= */
+
+body {
+
+    height: 100vh;
+
+    /* Background Image */
+    background-image: url("https://picsum.photos/1600/900");
+
+    /* Prevent Repeat */
+    background-repeat: no-repeat;
+
+    /* Full Screen Image */
+    background-size: cover;
+
+    /* Center Image */
+    background-position: center;
+
+    /* Fixed Background */
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* =========================
+   OVERLAY CONTAINER
+========================= */
+
+.overlay {
+
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+
+/* =========================
+   HEADING
+========================= */
+
+h1 {
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* =========================
+   PARAGRAPH
+========================= */
+
+p {
+
+    font-size: 22px;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+
+    padding: 12px 20px;
+
+    border: none;
+
+    background-color: white;
+
+    color: black;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+
+
+
+/* =========================
+   BUTTON HOVER
+========================= */
+
+button:hover {
+
+    background-color: lightgray;
+}
