@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Revision - Karthik</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>HTML Revision Page</h1>
+    <p>This page contains all important HTML concepts for quick revision.</p>
+
+    <hr>
+
+    <!-- Text Formatting -->
+    <h2>Text Formatting</h2>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <strong>important</strong> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <em>emphasized</em> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <mark>highlighted</mark> text</p>
+
+    <hr>
+
+    <p id="section1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in iste tenetur blanditiis nam quod obcaecati a quae,
+         sit numquam dolorum cum, voluptatibus necessitatibus odio dolore fuga ex facilis ipsam voluptatum sint. Eius cupiditate,
+          labore nulla deserunt neque reiciendis quos?</p>
+    <!--Lorem40--
+       -- <pre> tag is used to write paragraph with spaces in btw-->
+    <hr>
+    <!-- Lists -->
+    <h2>Lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Learn HTML</li>
+        <li>Practice CSS</li>
+        <li>Build Projects</li>
+    </ol>
+
+    <hr>
+
+    <!-- Links -->
+    <h2>Links</h2>
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+    <br>
+    <a href="index.html">to open index page</a><br>
+    <a href="#section1">jump to section</a>
+
+    <hr>
+
+    <!-- Images -->
+    <h2>Images</h2>
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+    <hr>
+
+    <!-- Semantic Tags -->
+     <!--these tags adds meaning (for readability purpose)-->
+    <h2>Semantic Tags</h2>
+    <header>This is header</header>
+    <nav>This is navigation</nav>
+    <section>This is section</section>
+    <footer>This is footer</footer>
+
+    <hr>
+
+    <!-- Table -->
+    <h2>Table</h2>
+    <table border="1">
+        <caption>My Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Skill</th>
+        </tr>
+        <tr>
+            <td>Karthik</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Student</td>
+            <td>HTML</td>
+        </tr>
+        <!-- colspan and rowspan-->
+    </table>
+
+    <hr>
+    <!--Block → Like a box (takes full row)
+    ex- <h1>,<li>,
+    Inline → Like words in a sentence
+    ex- <a></a> , <img>-->
+    <hr>
+
+    
+    <!-- Form -->
+    <h2>Form</h2>
+    <form>
+        Name: <input type="text" placeholder="name">
+        <br><br>
+        Email: <input type="email">
+        <br><br>
+        Password: <input type="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Skills:
+        <input type="checkbox"> Java
+        <input type="checkbox"> HTML
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <button>submit</button>
+    </form>
+
+    <hr>
+
+    <!--action attribute tells us wr the form data is sent and method tells how we send ie. get or post. -->
+    <form action="LoginServlet" method="post">
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit">
+        
+        <br>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+    </form>
+    <hr>
+    <audio controls autoplay loop>
+    <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+    <video width="500" controls autoplay muted>
+    <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <hr>
+
+    <!--Symbol-->
+    <p>&copy; 2026 Karthik. All rights reserved.&hearts;&reg;&heartsuit;</p>
+
+</body>
+</html>
